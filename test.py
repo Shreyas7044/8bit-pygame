@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Chrome()
 driver.maximize_window()
-
+password: Shreyas
 driver.get("https://www.amazon.in/ap/signin")
 
 wait = WebDriverWait(driver, 10)
